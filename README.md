@@ -1,69 +1,63 @@
-# UOC Boilerplate
+# Readme #
 
-UOC Boilerplate is a starter template for the HTML and CSS Tools courses from the [Master's Program in Multimedia Applications](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) and the [Master's Program in Web App and Website Development](https://estudis.uoc.edu/ca/masters-universitaris/desenvolupament-llocs-aplicacions-web/presentacio) at the [Universitat Oberta de Catalunya](https://www.uoc.edu). It aims to provide a basic, modern frontend web development starter pack based on Parcel and including a Sass compiler, an ES6 transpiler, minifiers, an image transformer, and development tools.
+## Hoja Estilos - Rogelio Villaverde del Campo Aguilar ##
 
-This is the 3.x version of UOC Boilerplate, available since the UOC 2020-2 semester.
+## Datos Proporcionados por Rogelio ##
+¡Hola a todos!
 
-## Requirements
+Soy Rogelio, el fundador y director de esta pequeña pero apasionada empresa dedicada al reciclaje y al respeto por nuestro querido medio ambiente. Es un honor para mí compartir un poco de lo que hacemos y de nuestra misión con todos ustedes.
 
-[Node.js](http://nodejs.org/) >= 14.15.x
+En nuestra empresa, nos dedicamos a recoger plásticos y otros materiales reciclables, para luego llevarlos a nuestra planta de reciclado. Allí, trabajamos arduamente para convertir esos materiales en productos renovados y listos para tener una segunda vida. Desde bolsas reutilizables hasta artículos de decoración, ofrecemos una amplia variedad de productos sostenibles que puedes encontrar en nuestra página web.
 
-## Getting started
+Mantener esta iniciativa en marcha no es tarea fácil, y es por eso que apreciamos enormemente el apoyo que recibimos. Necesitamos donaciones para poder cubrir los costos operativos y asegurarnos de que nuestro equipo dedicado pueda continuar con esta labor tan importante. Cada donación cuenta, y para agradecer a aquellos que nos apoyan, mostramos con orgullo los nombres de nuestros generosos donantes.
 
-Clone this repository with `git clone`, or download a .zip file using the top right green button.
+Hablando de agradecimiento, quiero expresar lo afortunado que me siento de recibir comentarios tan positivos de parte de nuestros clientes y seguidores en redes sociales. Sus palabras nos inspiran y nos motivan a seguir adelante, incluso en los momentos más difíciles.
 
-Using the Terminal, navigate to the project folder and run `npm install`.
+Afrontamos desafíos constantes para alcanzar ingresos mínimos que nos permitan seguir adelante, pero con su respaldo y solidaridad, estoy seguro de que podemos superar cualquier obstáculo. Juntos, estamos construyendo un futuro más sostenible y respetuoso con el medio ambiente.
 
-## Features
+Gracias a todos los que forman parte de esta gran familia comprometida con el cambio. Su apoyo hace posible que sigamos trabajando incansablemente por un mundo más limpio y verde.
 
-- Uses [Parcel v2](https://parceljs.org) module bundler.
-- NPM scripts for fast development and production build (see Commands below).
+Con gratitud,
+Rogelio
 
-### Stylesheets
+### Estructura ###
 
-- [Sass/SCSS](https://sass-lang.com) to CSS compilation.
-- Minification and optimization of CSS files on production builds with [`cssnano`](https://github.com/cssnano/cssnano) (`@parcel/optimizer-cssnano`).
-- [PostCSS](https://postcss.org/) features:
-  - Transpile modern CSS with [`postcss-preset-env`](https://preset-env.cssdb.org/features).
-  - Automatically add CSS prefix to unsupported properties with [`autoprefixer`](https://autoprefixer.github.io/).
+- Inicio 
+Vemos como en nuestra página de inicio aparece información relevante sobre la empresa para dar la bienvenida a nuestros cliente. 
+En el lado derecho dejamos claro como nuestras acciones se mueven mediante la venta de productos así como las donaciones.
 
-### HTML
+- Contacto 
+Por otra parte aparece como página secundaria un apartado de contacto para poder poner en comunicación con la empresa así como en un lateral la posibilidad de donaciones para apoyar a la causa 
 
-- Minification and optimization of CSS files on production builds [`htmlnano`](https://github.com/posthtml/htmlnano) (`@parcel/optimizer-htmlnano`).
-- [PostHTML](https://github.com/posthtml/posthtml) features:
-  - Include partial HTML files with [`posthtml-include`](https://github.com/posthtml/posthtml-include).
+### Tipografía ###
 
-### Scripts
+En cuanto a las tipografías usadas, para la barra de navegación usamos un tipo de letra 'Inter', 'Extra Bold' para resaltar las acciones que los clientes pueden hacer.
+Por otra parte tenemos para el texto una letra 'inconsolata',  'Semi Bold' parecida a la tan conocida tipografía 'consolas' que da facilidad en la lectura y comprensión.
 
-- Allow for modern JavaScript (ES201x/ES8/ES7/ES6…) which is automatically transpiled to ES5 and minifed in production builds, with [Babel](https://babeljs.io/).
+### Colores ###
+-- Generales --
+Negro -> 000000
+Gris Oscuro -> 222222
+Verde -> 72A98F
+Verde Oscuro -> 264840
 
-### Images
+-- Carrito --
+Verde Transparente -> 68CB9C, 60% de transparencia
 
-- Image transformation with [`@parcel/transformer-image`](https://parceljs.org/recipes/image/) (based on [`sharp`](https://sharp.pixelplumbing.com/)).
+-- Botón Pagar y Añadir al carrito --
+Naranja Claro -> F1D17E
 
-### Development
+-- Botones Like y Dislike --
+Verde Vivo -> 7EF1A5
+Rojo -> F17E7E
 
-- Development server launch and live reloading on file changes.
-- Friendly error reporting.
+### Imágenes ###
+- Fondo
+Como imagen de fondo hemos seleccionado un paisaje de montaña con un lago en el centro, para así tener la naturaleza siempre presente y pensemos mas en el medio ambiente. Además, los colores de esta imagen se compenetran muy bien con los elegidos para nuestra página.
 
-## How to use this boilerplate
+- Icono 
+En cuanto al icono presente se ve la implicación por la salud del planeta y el reciclaje mediante una representación del planeta. 
 
-Content lives inside the `src/` folder. If you do not want to change the configuration or are unsure about what you are doing, do not edit files outside the `src/` folder.
+- Título 
+Por otra parte tenemos un título peculiar representado por una vela la cual recuerda a como nuestro planeta se consume con el tiempo. 
 
-Always run the following commands during the development stage and for production builds. Please note that it is expected that all projects built with this boilerplate are compiled using `npm run build` before they are published.
-
-### Commands
-
-| Command         | Description                                                                                                                                                                                                                                                                                                                                                         |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `npm run dev`   | Runs a local web server for development and opens the browser to display it. Automatically compiles styles and scripts whenever a file in `src/` is changed, and live reloads the browser. This is what _must be run_ on the development stage.                                                                                                                     |
-| `npm run build` | Compiles and minifies and optimizes the files in the assets folder. The generated compiled and optimized files are located in the `dist/` folder. This is what _must be run_ before publishing the project. This is also the build command to be run by external deployment services such as Netlify. The publishable files are then located in the `dist/` folder. |
-| `npm run clean` | Deletes the current `/dist` folder and cache folders.                                                                                                                                                                                                                                                                                                               |
-| `npm run test`  | Displays a success message if everything is working as expected.                                                                                                                                                                                                                                                                                                    |
-
-## Need help? / Want to help out?
-I dont want to help you.
-
-Feel free to create a [new issue](https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues/new/) or drop me a line at jorditarrida@uoc.edu.
-
-Are you using this Boilerplate for your projects or for educational purposes? I would love to hear about it!
