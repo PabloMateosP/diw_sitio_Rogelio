@@ -35,21 +35,21 @@ En cuanto a las tipografías usadas, para la barra de navegación usamos un tipo
 Por otra parte tenemos para el texto una letra 'inconsolata',  'Semi Bold' parecida a la tan conocida tipografía 'consolas' que da facilidad en la lectura y comprensión.
 
 ### Colores ###
--- Generales --
-Negro -> 000000
-Gris Oscuro -> 222222
-Verde -> 72A98F
-Verde Oscuro -> 264840
+*Generales*
+- Negro -> 000000
+- Gris Oscuro -> 222222
+- Verde -> 72A98F
+- Verde Oscuro -> 264840
 
--- Carrito --
-Verde Transparente -> 68CB9C, 60% de transparencia
+*Carrito*
+- Verde Transparente -> 68CB9C, 60% de transparencia
 
--- Botón Pagar y Añadir al carrito --
-Naranja Claro -> F1D17E
+*Botón Pagar y Añadir al carrito*
+- Naranja Claro -> F1D17E
 
--- Botones Like y Dislike --
-Verde Vivo -> 7EF1A5
-Rojo -> F17E7E
+*Botones Like y Dislike*
+- Verde Vivo -> 7EF1A5
+- Rojo -> F17E7E
 
 ### Imágenes ###
 - Fondo
