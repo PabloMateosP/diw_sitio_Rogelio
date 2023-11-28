@@ -3,6 +3,8 @@
 ## Hoja Estilos - Rogelio Villaverde del Campo Aguilar ##
 
 ## Datos Proporcionados por Rogelio ##
+![Texto Alternativo](https://i.kym-cdn.com/entries/icons/original/000/047/264/josh_hutcherson_whistle.jpg)
+
 ¡Hola a todos!
 
 Soy Rogelio, el fundador y director de esta pequeña pero apasionada empresa dedicada al reciclaje y al respeto por nuestro querido medio ambiente. Es un honor para mí compartir un poco de lo que hacemos y de nuestra misión con todos ustedes.
