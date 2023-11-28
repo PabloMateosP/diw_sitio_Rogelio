@@ -62,6 +62,7 @@ Always run the following commands during the development stage and for productio
 | `npm run test`  | Displays a success message if everything is working as expected.                                                                                                                                                                                                                                                                                                    |
 
 ## Need help? / Want to help out?
+I dont want to help you.
 
 Feel free to create a [new issue](https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues/new/) or drop me a line at jorditarrida@uoc.edu.
 
