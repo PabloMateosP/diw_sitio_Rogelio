@@ -58,8 +58,10 @@ Por otra parte tenemos para el texto una letra 'inconsolata',  'Semi Bold' parec
 Como imagen de fondo hemos seleccionado un paisaje de montaña con un lago en el centro, para así tener la naturaleza siempre presente y pensemos mas en el medio ambiente. Además, los colores de esta imagen se compenetran muy bien con los elegidos para nuestra página.
 
 - Icono 
+![Texto Alternativo](https://github.com/dgonrom2803/DIWEB/blob/master/Tema%20-%204/Actividades/NightmareProductions/images/economia-circolare.png)
 En cuanto al icono presente se ve la implicación por la salud del planeta y el reciclaje mediante una representación del planeta. 
 
 - Título 
+![Titulo](https://www.biosaveplasticfree.it/wp-content/uploads/2021/07/logo-verde-300x181.png)
 Por otra parte tenemos un título peculiar representado por una vela la cual recuerda a como nuestro planeta se consume con el tiempo. 
 
