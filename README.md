@@ -59,7 +59,7 @@ Como imagen de fondo hemos seleccionado un paisaje de montaña con un lago en el
 
 - Icono 
 
-![Texto Alternativo](https://github.com/dgonrom2803/DIWEB/blob/master/Tema%20-%204/Actividades/NightmareProductions/images/economia-circolare.png){width='100px' height='100px'}
+![Texto Alternativo](https://github.com/dgonrom2803/DIWEB/blob/master/Tema%20-%204/Actividades/NightmareProductions/images/economia-circolare.png)
 
 En cuanto al icono presente se ve la implicación por la salud del planeta y el reciclaje mediante una representación del planeta. 
 
