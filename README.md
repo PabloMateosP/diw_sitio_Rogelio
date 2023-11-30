@@ -36,15 +36,23 @@ En el lado derecho dejamos claro como nuestras acciones se mueven mediante la ve
 
 Por otra parte aparece como página secundaria un apartado de contacto para poder poner en comunicación con la empresa así como en un lateral la posibilidad de donaciones para apoyar la limpieza y reciclaje de productos para el cuidado del planeta. 
 
-
+![Página Contacto](https://raw.githubusercontent.com/PabloMateosP/diw_sitio_Rogelio/master/img/contactoRogelio.jpg)
 
 - Productos
 
 En la página de productos aparece el catálogo con los precios de cada producto y un botón para añadir al carrito. Además en la parte derecha aparece nuestro carrito.
 
+![Página Productos](https://raw.githubusercontent.com/PabloMateosP/diw_sitio_Rogelio/master/img/productosRogelio.jpg)
+
 - Detalles de producto
 
 La página de detalles de producto es la que aparece cuando clickamos sobre uno de los productos. En ella vemos el producto más detallado y con las opciones de añadir al carrito y opinar de él(like/dislike).
+
+![Página Detalles Productos](https://raw.githubusercontent.com/PabloMateosP/diw_sitio_Rogelio/master/img/detallesProductosRogelio.jpg)
+
+### Público objetivo ###
+
+Nuestra página va destinada a todo aquel que quiera aportar su granito de arena ayudando al medio ambiente y a ser posible llegar a más personas que no son conscientes del daño que está recibiendo nuestro planeta.
 
 
 ### Tipografía ###
