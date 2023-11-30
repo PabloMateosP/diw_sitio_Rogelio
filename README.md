@@ -25,11 +25,27 @@ Rogelio
 ### Estructura ###
 
 - Inicio 
+
 Vemos como en nuestra página de inicio aparece información relevante sobre la empresa para dar la bienvenida a nuestros cliente. 
 En el lado derecho dejamos claro como nuestras acciones se mueven mediante la venta de productos así como las donaciones.
 
+![Página Inicio]()
+
+
 - Contacto 
-Por otra parte aparece como página secundaria un apartado de contacto para poder poner en comunicación con la empresa así como en un lateral la posibilidad de donaciones para apoyar a la causa 
+
+Por otra parte aparece como página secundaria un apartado de contacto para poder poner en comunicación con la empresa así como en un lateral la posibilidad de donaciones para apoyar la limpieza y reciclaje de productos para el cuidado del planeta. 
+
+
+
+- Productos
+
+En la página de productos aparece el catálogo con los precios de cada producto y un botón para añadir al carrito. Además en la parte derecha aparece nuestro carrito.
+
+- Detalles de producto
+
+La página de detalles de producto es la que aparece cuando clickamos sobre uno de los productos. En ella vemos el producto más detallado y con las opciones de añadir al carrito y opinar de él(like/dislike).
+
 
 ### Tipografía ###
 
