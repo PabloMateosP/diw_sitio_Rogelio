@@ -29,7 +29,7 @@ Rogelio
 Vemos como en nuestra página de inicio aparece información relevante sobre la empresa para dar la bienvenida a nuestros cliente. 
 En el lado derecho dejamos claro como nuestras acciones se mueven mediante la venta de productos así como las donaciones.
 
-![Página Inicio]()
+![Página Inicio](https://raw.githubusercontent.com/PabloMateosP/diw_sitio_Rogelio/master/img/inicioRogelio.jpg)
 
 
 - Contacto 
