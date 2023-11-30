@@ -93,3 +93,6 @@ En cuanto al icono presente se ve la implicación por la salud del planeta y el 
 
 Por otra parte tenemos un título peculiar representado por una vela la cual recuerda a como nuestro planeta se consume con el tiempo. 
 
+### Enlace Figma ###
+
+[Boceto Figma](https://www.figma.com/file/I8y8HFApvJo2RAeOBwXQgC/P%C3%A1gina-Web?type=design&node-id=0%3A1&mode=design&t=gGRbB4TWAkmfzEje-1)
