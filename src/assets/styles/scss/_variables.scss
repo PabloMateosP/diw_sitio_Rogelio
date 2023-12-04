@@ -28,14 +28,3 @@ $fontTitulo: "Inconsolata-SemiBold", Helvetica, sans-serif; // Tamaño 40 Extra 
 $fontInformacion: "Inconsolata-SemiBold", Helvetica, sans-serif; // Tamaño 32 Extra Bold en Figma 
 
 
-@mixin establecer-header {
-  background-color: $color-fondo-header;
-    
-}
-
-@mixin establecer-navegacion {
-  background-color: $color-fondo-navegacion;
-  
-    
-}
-
