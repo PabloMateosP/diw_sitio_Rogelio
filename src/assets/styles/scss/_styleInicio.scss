@@ -2,12 +2,9 @@ body {
     margin: 0;
 
     .header {
-        height: 130px;
+        height: 140px;
         display: grid;
-        grid-template-columns: repeat(12,1fr);
-        
-        padding-top: 10px;
-        padding-bottom: 10px;
+        grid-template-columns: repeat(12, 1fr);
 
         z-index: 1;
         position: sticky;
@@ -17,35 +14,30 @@ body {
         .header__zonaTitulo {
             margin-top: 20px;
             margin-bottom: 20px;
-            height: 100%;
-            width: 100%;
-
             gap: 10px;
 
             display: flex;
             flex-direction: column;
-            grid-column: 5/8;
+            grid-column: 2/12;
+            
+            align-items: center;
             grid-row: 1;
-
-            transition: 0.2s linear;
 
             #zonaTitulo__logo {
                 display: flex;
                 gap: 35px;
-                
+
                 #zonaTitulo__logo__img {
+                    
                     height: 100px;
                     grid-column: 3/4;
-                    
                 }
 
                 #zonaTitulo__logo__titulo {
                     height: 100px;
                     grid-column: 4/5;
-                    
                 }
             }
-            
         }
 
         .header__zonaNavegacion {
@@ -54,28 +46,25 @@ body {
             grid-column: 1/13;
             grid-row: 2;
             background-color: $color-fondo-navegacion;
-            height: 100%;
-            width: 100%;
+        
             background-color: $color-fondo-navegacion;
-            
-            text-decoration: none;
-            
 
-            h3 {
-
-                color: $color-letra-navegacion;
-                background-color: $color-fondo-header;
-                padding-top: 20px;
-                padding-bottom: 20px;
-                text-align: center;
-                
+            a {
+                text-decoration: none;
+                h3 {
+                    color: $color-letra-navegacion;
+                    background-color: $color-fondo-header;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    text-align: center;
+                }
             }
-              
-            .zonaNavegacion__div1{
+
+            .zonaNavegacion__div1 {
                 grid-column: 3/5;
             }
 
-            .zonaNavegacion__div2{
+            .zonaNavegacion__div2 {
                 grid-column: 6/8;
             }
 

@@ -8,11 +8,9 @@ body {
   margin: 0;
 }
 body .header {
-  height: 130px;
+  height: 140px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  padding-top: 10px;
-  padding-bottom: 10px;
   z-index: 1;
   position: sticky;
   background-color: #72A98F;
@@ -20,14 +18,12 @@ body .header {
 body .header .header__zonaTitulo {
   margin-top: 20px;
   margin-bottom: 20px;
-  height: 100%;
-  width: 100%;
   gap: 10px;
   display: flex;
   flex-direction: column;
-  grid-column: 5/8;
+  grid-column: 2/12;
+  align-items: center;
   grid-row: 1;
-  transition: 0.2s linear;
 }
 body .header .header__zonaTitulo #zonaTitulo__logo {
   display: flex;
@@ -47,12 +43,12 @@ body .header .header__zonaNavegacion {
   grid-column: 1/13;
   grid-row: 2;
   background-color: #222222;
-  height: 100%;
-  width: 100%;
   background-color: #222222;
+}
+body .header .header__zonaNavegacion a {
   text-decoration: none;
 }
-body .header .header__zonaNavegacion h3 {
+body .header .header__zonaNavegacion a h3 {
   color: #000000;
   background-color: #72A98F;
   padding-top: 20px;
