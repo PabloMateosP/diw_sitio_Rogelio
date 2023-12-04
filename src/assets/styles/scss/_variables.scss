@@ -1,0 +1,41 @@
+// -------------- 
+// Colores página 
+// --------------
+/*### Generales ###*/
+$color-letra-navegacion: #000000;
+$color-fondo-navegacion: #222222;
+$color-fondo-header: #72A98F;
+$color-fondo-categorias: #264840;
+$color-letra:#FFFFFF;
+
+/*### Carrito ###*/
+$color-fondo-carrito: rgba(104, 203, 156, 0.6);
+
+
+/*### Botón Pagar y Añadir al carrito ###*/
+$color-boton-pagar: #F1D17E;
+
+/*### Botones Like y Dislike ###*/
+$color-boton-like: #7EF1A5;
+$color-boton-dislike: #F17E7E;
+
+// --------------
+// Tipografías
+// --------------
+/*### Generales ###*/
+$fontNavegacion: Arial, Helvetica, sans-serif; // Tamaño 40 Extra Bold en Figma
+$fontTitulo: "Inconsolata-SemiBold", Helvetica, sans-serif; // Tamaño 40 Extra Bold en Figma
+$fontInformacion: "Inconsolata-SemiBold", Helvetica, sans-serif; // Tamaño 32 Extra Bold en Figma 
+
+
+@mixin establecer-header {
+  background-color: $color-fondo-header;
+    
+}
+
+@mixin establecer-navegacion {
+  background-color: $color-fondo-navegacion;
+  
+    
+}
+
