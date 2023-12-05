@@ -6,9 +6,10 @@
 /*### Generales ###*/
 body {
   margin: 0;
+  background: url(fondoPag.png) no-repeat center center fixed;
+  background-size: cover;
 }
 body .header {
-  height: 140px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   z-index: 1;
@@ -16,6 +17,7 @@ body .header {
   background-color: #72A98F;
 }
 body .header .header__zonaTitulo {
+  height: 135px;
   margin-top: 20px;
   margin-bottom: 20px;
   gap: 10px;
@@ -23,26 +25,37 @@ body .header .header__zonaTitulo {
   flex-direction: column;
   grid-column: 1/13;
   align-items: center;
-  grid-row: 1;
+}
+@media screen and (max-width: 700px) {
+  body .header .header__zonaTitulo {
+    height: 110px;
+  }
 }
 body .header .header__zonaTitulo #zonaTitulo__logo {
   display: flex;
   gap: 35px;
 }
 body .header .header__zonaTitulo #zonaTitulo__logo #zonaTitulo__logo__img {
+  margin-top: 15px;
   height: 100px;
   grid-column: 3/4;
 }
 body .header .header__zonaTitulo #zonaTitulo__logo #zonaTitulo__logo__titulo {
-  height: 100px;
+  height: 125px;
   grid-column: 4/5;
+}
+@media screen and (max-width: 700px) {
+  body .header .header__zonaTitulo #zonaTitulo__logo #zonaTitulo__logo__img {
+    margin-top: 10px;
+  }
+  body .header .header__zonaTitulo #zonaTitulo__logo #zonaTitulo__logo__titulo {
+    height: 110px;
+  }
 }
 body .header .header__zonaNavegacion {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column: 1/13;
-  grid-row: 2;
-  background-color: #222222;
   background-color: #222222;
 }
 body .header .header__zonaNavegacion a {
@@ -59,9 +72,14 @@ body .header .header__zonaNavegacion a h3 {
   font-weight: bolder;
   border-radius: 6px;
 }
+@media screen and (min-width: 1050px) {
+  body .header .header__zonaNavegacion a h3 {
+    margin-right: 8%;
+  }
+}
 @media screen and (max-width: 1050px) {
   body .header .header__zonaNavegacion a h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 }
 @media screen and (max-width: 700px) {
@@ -77,6 +95,11 @@ body .header .header__zonaNavegacion .zonaNavegacion__div2 {
 }
 body .header .header__zonaNavegacion .zonaNavegacion__div3 {
   grid-column: 9/11;
+}
+body .div__main {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
 
 /*# sourceMappingURL=main.css.map */
