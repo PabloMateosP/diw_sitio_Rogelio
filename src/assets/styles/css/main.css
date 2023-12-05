@@ -21,7 +21,7 @@ body .header .header__zonaTitulo {
   gap: 10px;
   display: flex;
   flex-direction: column;
-  grid-column: 2/12;
+  grid-column: 1/13;
   align-items: center;
   grid-row: 1;
 }
@@ -51,9 +51,23 @@ body .header .header__zonaNavegacion a {
 body .header .header__zonaNavegacion a h3 {
   color: #000000;
   background-color: #72A98F;
+  font-family: Arial, Helvetica, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+  font-size: 1.7em;
+  font-weight: bolder;
+  border-radius: 6px;
+}
+@media screen and (max-width: 1050px) {
+  body .header .header__zonaNavegacion a h3 {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .header .header__zonaNavegacion a h3 {
+    font-size: calc(0.8em - 0.1vw);
+  }
 }
 body .header .header__zonaNavegacion .zonaNavegacion__div1 {
   grid-column: 3/5;
