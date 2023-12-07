@@ -101,5 +101,54 @@ body .div__main {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
+body .div__main #div__main__columnaIzquierda {
+  color: white;
+  grid-column: 2/7;
+}
+body .div__main #div__main__columnaIzquierda h1 {
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+body .div__main #div__main__columnaIzquierda hr {
+  width: 125px;
+  margin-top: 0;
+  margin-left: 0;
+}
+body .div__main #div__main__columnaIzquierda p {
+  font-size: 1.25em;
+  font-family: "Inconsolata-SemiBold", Helvetica, sans-serif;
+}
+body .div__main #div__main__columnaIzquierda img {
+  margin-left: 70px;
+  border-radius: 25px;
+  width: 60%;
+}
+body .div__main #div__main__columnaDerecha {
+  grid-column: 8/12;
+  color: white;
+}
+body .div__main #div__main__columnaDerecha h1 {
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+body .div__main #div__main__columnaDerecha #id__logoDerecha {
+  width: 40px;
+  background-color: rgba(175, 175, 175, 0.3);
+  border-radius: 80%;
+}
+body .div__main #div__main__columnaDerecha hr {
+  width: 225px;
+  margin-top: 0;
+  margin-left: 0;
+}
+body .div__main #div__main__columnaDerecha p {
+  font-size: 1.25em;
+  font-family: "Inconsolata-SemiBold", Helvetica, sans-serif;
+}
+body .div__main #div__main__columnaDerecha #id__imagenDerecha {
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 50px;
+}
 
 /*# sourceMappingURL=main.css.map */
