@@ -4,12 +4,9 @@ body {
     background: url(fondoPag.png) no-repeat center center fixed;
     background-size: cover;
 
-
     .header {
-
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-
 
         z-index: 1;
         position: sticky;
@@ -37,20 +34,15 @@ body {
                 display: flex;
                 gap: 35px;
 
-
                 #zonaTitulo__logo__img {
-
                     margin-top: 15px;
                     height: 100px;
                     grid-column: 3/4;
-
                 }
 
                 #zonaTitulo__logo__titulo {
-
                     height: 125px;
                     grid-column: 4/5;
-
                 }
 
                 @media screen and (max-width: 700px) {
@@ -72,6 +64,9 @@ body {
 
             background-color: $color-fondo-navegacion;
 
+            // Para reducir el tamaño de la línea de navegación podemos poner que el margen sea negativo
+            margin-top: -5px;
+            margin-bottom: -5px;
 
             a {
                 text-decoration: none;
@@ -81,18 +76,18 @@ body {
                     background-color: $color-fondo-header;
 
                     font-family: $fontNavegacion;
+                    margin-right: 0;
 
-                    padding-top: 20px;
-                    padding-bottom: 20px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+
+                    margin-top: 15px;
+                    margin-bottom: 15px;
 
                     text-align: center;
                     font-size: 1.7em;
                     font-weight: bolder;
                     border-radius: 6px;
-
-                    @media screen and (min-width: 1050px) {
-                        margin-right: 8%;
-                    }
 
                     @media screen and (max-width: 1050px) {
                         font-size: 1.1em;
@@ -104,20 +99,13 @@ body {
                 }
             }
 
-            // Me he dado cuenta y hay que preguntar a diego el porque de que nuestro h3 no se situan 
-            // en las columnas donde van, es decir le sobre 20px por la derecha a cada uno 
-
-            // Entonces al estar eso mal parece que categorías está mal, pero no, categoría está bien 
-
             .zonaNavegacion__div1 {
                 grid-column: 3/5;
 
                 #zonaNavegacion__div1__index :hover {
                     background-color: $color-navegacion-botones-hover;
                 }
-
             }
-
 
             .zonaNavegacion__div2 {
                 grid-column: 6/8;
@@ -125,8 +113,6 @@ body {
                 #zonaNavegacion__div2__index :hover {
                     background-color: $color-navegacion-botones-hover;
                 }
-
-
             }
 
             .zonaNavegacion__div3 {
@@ -145,8 +131,16 @@ body {
 
             background-color: $color-fondo-categorias;
 
+            .header__zonaNavegacion_2__divCategorias :hover {
+                background-color: $color-navegacion-botones-hover;
+            }
+
             .header__zonaNavegacion_2__divCategorias {
                 grid-column: 5/6;
+
+                // Reducimos tamaño a la barra contenedora del botón categorias
+                margin-top: -7px;
+                margin-bottom: -7px;
 
                 a {
                     text-decoration: none;
@@ -156,20 +150,61 @@ body {
                         font-family: $fontNavegacion;
 
                         background-color: $color-fondo-header;
-                        padding-top: 10px;
-                        padding-bottom: 10px;
+
+                        // Se le da tamaño superior e inferior al botón categorías
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+
+                        // Se le da tamaño por los lados al botón categorías
+                        padding-left: 5px;
+                        padding-right: 5px;
 
                         text-align: center;
-                        font-size: 1.4em;
+                        font-size: 1em;
                         font-weight: bolder;
                         border-radius: 6px;
+
+                        @media screen and (max-width: 1050px) {
+                            font-size: 0.7em;
+                        }
+
+                        @media screen and (max-width: 700px) {
+                            font-size: calc(0.8em - 0.1vw);
+                        }
                     }
                 }
             }
 
+            .header__zonaNavegacion_2__formBuscar {
+                grid-column: 8/9;
+                display: flex;
+
+                padding-top: 5px;
+                padding-bottom: 5px;
+
+                align-items: center;
+                justify-content: center;
+
+                input[type="search"] {
+
+                    border: 2px solid #3498db;
+                    border-radius: 5px;
+                    width: 150px;
+                    outline: none;
+
+                    @media screen and (max-width: 1075px) {
+                        width: 70px;
+                    }
+
+                }
+
+                input[type="search"]:focus {
+                    border-color: #2ecc71;
+                }
+
+            }
         }
     }
 
     // Hay que cambiar los nombres de los componentes en el main pero el header lo he dejado igual ya que es el mismo para todos
-
 }

@@ -68,7 +68,6 @@ body {
             display: grid;
             grid-template-columns: repeat(12, 1fr);
             grid-column: 1/13;
-
             background-color: $color-fondo-navegacion;
 
 
@@ -81,17 +80,18 @@ body {
 
                     font-family: $fontNavegacion;
 
-                    padding-top: 20px;
-                    padding-bottom: 20px;
+                    margin-right: 0;
+
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    
+                    margin-top: 15px;
+                    margin-bottom: 15px;
 
                     text-align: center;
                     font-size: 1.7em;
                     font-weight: bolder;
                     border-radius: 6px;
-
-                    @media screen and (min-width: 1050px) {
-                        margin-right: 8%;
-                    }
 
                     @media screen and (max-width: 1050px) {
                         font-size: 1.1em;
@@ -105,6 +105,7 @@ body {
 
             .zonaNavegacion__div1 {
                 grid-column: 3/5;
+                
 
                 #zonaNavegacion__div1__index :hover {
                     background-color: $color-navegacion-botones-hover;
