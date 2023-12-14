@@ -186,7 +186,6 @@ body {
                 justify-content: center;
 
                 input[type="search"] {
-
                     border: 2px solid #3498db;
                     border-radius: 5px;
                     width: 150px;
@@ -195,13 +194,195 @@ body {
                     @media screen and (max-width: 1075px) {
                         width: 70px;
                     }
-
                 }
 
                 input[type="search"]:focus {
                     border-color: #2ecc71;
                 }
+            }
+        }
+    }
+    .main {
+        display: grid;
+        grid-template-columns: repeat(14, 1fr);
 
+        .zonaIzquierda {
+            margin-top: 10px;
+
+            display: grid;
+            grid-column: 1/11;
+            grid-template-columns: repeat(11, 1fr);
+            margin-left: 10px;
+            margin-right: 10px;
+
+            #id__logoDerecha {
+                
+                width: 20px;
+                background-color: rgba(255, 255, 255, 1);
+                border-radius: 80%;
+                
+            }
+
+            hr {
+                width: 200px;
+            }
+
+            h2 {
+                margin-top: 0;
+                margin-bottom: 0;
+                color: $color-letra;
+                font-family: $fontInformacion;
+                text-align: center;
+
+            }
+            #imgArticulo {
+                height: 220px;
+                border-radius: 20px;
+                border: 1px solid black;
+            }
+
+            .divPrimerProducto {
+                grid-column: 3;
+                display: flex;
+                flex-direction: column;
+            }
+            .divSegundoProducto {
+                grid-column: 6;
+                display: flex;
+                flex-direction: column;
+            }
+            .divTercerProducto {
+                grid-column: 9;
+                display: flex;
+                flex-direction: column;    
+            }
+            .divCuartoProducto {
+                margin-top: 20px;
+                grid-column: 3;
+                grid-row: 2;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .divQuintoProducto {
+                margin-top: 20px;
+                grid-column: 6;
+                grid-row: 2;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .divSextoProducto {
+                margin-top: 20px;
+                grid-column: 9;
+                grid-row: 2;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .zonaDerecha {
+            margin-top: 10px;
+
+            grid-column: 11/15;
+
+            margin-left: 10px;
+            margin-right: 10px;
+
+            background-color: $color-fondo-carrito;
+            border-radius: 20px;
+            border: 1px solid black;
+            font-family: $fontInformacion;
+
+            #id__logoDerecha {
+                width: 50px;
+
+            }
+
+            h1 {
+                text-align: center;
+
+            }
+            hr {
+                width: auto;
+                color: green($color: #000000);
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            h2 {
+                margin-left: 20px;
+            }
+            
+            p {
+                margin-right: 20px;
+                text-align: end;
+            }
+
+            .buttonVaciar {
+                a {
+                    text-decoration: none;
+
+                    h3 {
+                        color: $color-letra-navegacion;
+                        font-family: $fontNavegacion;
+
+                        background-color: $color-boton-dislike;
+
+                        // Se le da tamaño superior e inferior al botón categorías
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+
+                        // Se le da tamaño por los lados al botón categorías
+                        padding-left: 5px;
+                        padding-right: 5px;
+
+                        text-align: center;
+                        font-size: 1em;
+                        font-weight: bolder;
+                        // border-radius: 6px;
+
+                        @media screen and (max-width: 1050px) {
+                            font-size: 0.7em;
+                        }
+
+                        @media screen and (max-width: 700px) {
+                            font-size: calc(0.8em - 0.1vw);
+                        }
+                    }
+                }
+            }
+            .buttonPagar { 
+                a {
+                    text-decoration: none;
+
+                    h3 {
+                        color: $color-letra-navegacion;
+                        font-family: $fontNavegacion;
+
+                        background-color: $color-fondo-header;
+
+                        // Se le da tamaño superior e inferior al botón categorías
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+
+                        // Se le da tamaño por los lados al botón categorías
+                        padding-left: 5px;
+                        padding-right: 5px;
+
+                        text-align: center;
+                        font-size: 1em;
+                        font-weight: bolder;
+                        // border-radius: 6px;
+
+                        @media screen and (max-width: 1050px) {
+                            font-size: 0.7em;
+                        }
+
+                        @media screen and (max-width: 700px) {
+                            font-size: calc(0.8em - 0.1vw);
+                        }
+                    }
+                }
             }
         }
     }
