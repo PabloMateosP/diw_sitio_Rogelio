@@ -108,6 +108,11 @@ body .div__main {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
+@media screen and (max-width: 768px) {
+  body .div__main {
+    font-size: 13px;
+  }
+}
 body .div__main #div__main__columnaIzquierda {
   color: white;
   grid-column: 2/7;
@@ -257,6 +262,129 @@ body .header .header__zonaNavegacion .zonaNavegacion__div3 {
 body .header .header__zonaNavegacion .zonaNavegacion__div3 #zonaNavegacion__div3__index :hover {
   background-color: #bbcfc6;
 }
+body .div__main_contacto {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  font-family: "Inconsolata-SemiBold", Helvetica, sans-serif;
+  color: #FFF;
+}
+body .div__main_contacto .main_contacto_formulario {
+  margin-top: 10px;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+body .div__main_contacto .main_contacto_formulario h1 {
+  grid-column: 1/3;
+  text-align: center;
+  margin-bottom: 0;
+}
+body .div__main_contacto .main_contacto_formulario hr {
+  grid-column: 1/3;
+  margin-top: 0;
+  width: 60%;
+}
+body .div__main_contacto .main_contacto_formulario .formulario_columna1 {
+  grid-column: 1;
+}
+body .div__main_contacto .main_contacto_formulario .formulario_columna1 h2 {
+  padding-left: 35px;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  body .div__main_contacto .main_contacto_formulario .formulario_columna1 h2 {
+    font-size: 20px;
+  }
+}
+body .div__main_contacto .main_contacto_formulario .formulario_columna1 input {
+  margin-top: 0;
+  margin-left: 25px;
+  height: 40px;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.5);
+  color: white;
+  border: 1px solid #ccc;
+  text-indent: 10px;
+}
+@media screen and (max-width: 768px) {
+  body .div__main_contacto .main_contacto_formulario .formulario_columna1 input {
+    width: 80%;
+  }
+}
+body .div__main_contacto .main_contacto_formulario .formulario_columna2 {
+  grid-column: 2;
+}
+body .div__main_contacto .main_contacto_formulario .formulario_columna2 h2 {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  body .div__main_contacto .main_contacto_formulario .formulario_columna2 h2 {
+    font-size: 20px;
+  }
+}
+body .div__main_contacto .main_contacto_formulario .formulario_columna2 input {
+  margin-left: 10px;
+  margin-top: 0;
+  height: 40px;
+  width: 90%;
+  color: white;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ccc;
+  text-indent: 10px;
+}
+@media screen and (max-width: 768px) {
+  body .div__main_contacto .main_contacto_formulario .formulario_columna2 input {
+    width: 80%;
+  }
+}
+body .div__main_contacto .main_contacto_formulario .formulario_both_Columns {
+  grid-column: 1/3;
+}
+body .div__main_contacto .main_contacto_formulario .formulario_both_Columns h2 {
+  margin-left: 35px;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  body .div__main_contacto .main_contacto_formulario .formulario_both_Columns h2 {
+    font-size: 20px;
+  }
+}
+body .div__main_contacto .main_contacto_formulario .formulario_both_Columns input {
+  margin-top: 0;
+  margin-left: 25px;
+  height: 40px;
+  width: 93%;
+  background: rgba(255, 255, 255, 0.5);
+  color: white;
+  border: 1px solid #ccc;
+  text-indent: 10px;
+}
+@media screen and (max-width: 768px) {
+  body .div__main_contacto .main_contacto_formulario .formulario_both_Columns input {
+    width: 86%;
+  }
+}
+body .div__main_contacto .main_contacto_formulario .formulario_botonEnviar {
+  grid-column: 1/3;
+  text-align: center;
+  margin-top: 40px;
+}
+body .div__main_contacto .main_contacto_formulario .formulario_botonEnviar a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: larger;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+body .div__main_contacto .main_contacto_formulario .formulario_botonEnviar a:hover {
+  background-color: white;
+  color: grey;
+}
 
 body {
   margin: 0;
@@ -402,24 +530,26 @@ body .header .header__zonaNavegacion_2 .header__zonaNavegacion_2__divCategorias 
 body .header .header__zonaNavegacion_2 .header__zonaNavegacion_2__formBuscar {
   grid-column: 8/9;
   display: flex;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  margin-top: 5px;
+  height: 30px;
+  width: 100px;
   align-items: center;
   justify-content: center;
+  background: rgba(114, 169, 143, 0.5);
+  border: 1px solid #ccc;
 }
-body .header .header__zonaNavegacion_2 .header__zonaNavegacion_2__formBuscar input[type=search] {
-  border: 2px solid #3498db;
-  border-radius: 5px;
-  width: 150px;
-  outline: none;
-}
-@media screen and (max-width: 1075px) {
-  body .header .header__zonaNavegacion_2 .header__zonaNavegacion_2__formBuscar input[type=search] {
+@media screen and (max-width: 1075px) and (min-width: 1050px) {
+  body .header .header__zonaNavegacion_2 .header__zonaNavegacion_2__formBuscar {
     width: 70px;
+    height: 30px;
   }
 }
-body .header .header__zonaNavegacion_2 .header__zonaNavegacion_2__formBuscar input[type=search]:focus {
-  border-color: #2ecc71;
+@media screen and (max-width: 1050px) {
+  body .header .header__zonaNavegacion_2 .header__zonaNavegacion_2__formBuscar {
+    width: 70px;
+    height: 20px;
+    margin-bottom: 5px;
+  }
 }
 body .main {
   display: grid;
@@ -441,6 +571,11 @@ body .main .zonaIzquierda #id__logoDerecha {
 body .main .zonaIzquierda hr {
   width: 200px;
 }
+@media screen and (max-width: 768px) {
+  body .main .zonaIzquierda hr {
+    width: 80%;
+  }
+}
 body .main .zonaIzquierda h2 {
   margin-top: 0;
   margin-bottom: 0;
@@ -448,46 +583,45 @@ body .main .zonaIzquierda h2 {
   font-family: "Inconsolata-SemiBold", Helvetica, sans-serif;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  body .main .zonaIzquierda h2 {
+    font-size: 17px;
+  }
+}
 body .main .zonaIzquierda #imgArticulo {
   height: 220px;
   border-radius: 20px;
   border: 1px solid black;
+  transition: transform 0.3s ease;
+}
+@media screen and (max-width: 768px) {
+  body .main .zonaIzquierda #imgArticulo {
+    height: 160px;
+  }
+}
+body .main .zonaIzquierda #imgArticulo:hover {
+  transform: scale(0.9);
 }
 body .main .zonaIzquierda .divPrimerProducto {
   grid-column: 3;
-  display: flex;
-  flex-direction: column;
 }
 body .main .zonaIzquierda .divSegundoProducto {
   grid-column: 6;
-  display: flex;
-  flex-direction: column;
 }
 body .main .zonaIzquierda .divTercerProducto {
   grid-column: 9;
-  display: flex;
-  flex-direction: column;
 }
 body .main .zonaIzquierda .divCuartoProducto {
-  margin-top: 20px;
   grid-column: 3;
   grid-row: 2;
-  display: flex;
-  flex-direction: column;
 }
 body .main .zonaIzquierda .divQuintoProducto {
-  margin-top: 20px;
   grid-column: 6;
   grid-row: 2;
-  display: flex;
-  flex-direction: column;
 }
 body .main .zonaIzquierda .divSextoProducto {
-  margin-top: 20px;
   grid-column: 9;
   grid-row: 2;
-  display: flex;
-  flex-direction: column;
 }
 body .main .zonaDerecha {
   margin-top: 10px;
@@ -524,7 +658,7 @@ body .main .zonaDerecha .buttonVaciar a {
 body .main .zonaDerecha .buttonVaciar a h3 {
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #F17E7E;
+  background-color: rgba(241, 126, 126, 0.6);
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
@@ -567,6 +701,12 @@ body .main .zonaDerecha .buttonPagar a h3 {
   body .main .zonaDerecha .buttonPagar a h3 {
     font-size: calc(0.8em - 0.1vw);
   }
+}
+body .main .zonaDerecha .buttonPagar :hover {
+  background-color: #2ecc71;
+}
+body .main .zonaDerecha .buttonVaciar :hover {
+  background-color: rgb(196, 6, 6);
 }
 
 body {
@@ -667,6 +807,256 @@ body .header .header__zonaNavegacion .zonaNavegacion__div3 {
 }
 body .header .header__zonaNavegacion .zonaNavegacion__div3 #zonaNavegacion__div3__index :hover {
   background-color: #bbcfc6;
+}
+body .main {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+}
+body .main .zonaIzquierda__detalle {
+  margin-top: 10px;
+  display: grid;
+  grid-column: 1/11;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: 50px auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body .main .zonaIzquierda__detalle .zonaVolver {
+  grid-column: 1;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 0;
+}
+body .main .zonaIzquierda__detalle .zonaVolver #id__logoIzquierda {
+  width: 50px;
+}
+body .main .zonaIzquierda__detalle .zonaProducto {
+  grid-column: 2/12;
+  grid-row: 2;
+  grid-template-columns: repeat(11, 1fr);
+  display: grid;
+  align-items: start;
+}
+body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__imagen {
+  grid-column: 1/6;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__imagen #imgArticulo1 {
+  grid-column: 1/3;
+  height: 350px;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__imagen #imgArticulo1 {
+    height: 250px;
+    margin-bottom: 10px;
+  }
+}
+body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__imagen #botonLike {
+  grid-column: 1/2;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: "Inconsolata-SemiBold", Helvetica, sans-serif;
+  background-color: rgba(126, 241, 165, 0.6);
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 20px;
+  width: 60px;
+  text-align: center;
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__imagen #botonLike {
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__imagen #botonLike:hover {
+  background-color: rgb(126, 241, 165);
+}
+body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__imagen #botonDisLike {
+  grid-column: 2/3;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: "Inconsolata-SemiBold", Helvetica, sans-serif;
+  background-color: rgba(241, 126, 126, 0.6);
+  border: 1px solid black;
+  border-radius: 60%;
+  height: 20px;
+  width: 60px;
+  text-align: center;
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__imagen #botonDisLike {
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__imagen #botonDisLike:hover {
+  background-color: rgb(241, 126, 126);
+}
+body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__info {
+  grid-column: 6/12;
+  margin-left: 10px;
+}
+@media screen and (max-width: 768px) {
+  body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__info {
+    margin-left: 40px;
+  }
+}
+body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__info h1 {
+  margin-bottom: 0;
+  color: #FFFFFF;
+  font-family: "Inconsolata-SemiBold", Helvetica, sans-serif;
+}
+@media screen and (max-width: 768px) {
+  body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__info h1 {
+    font-size: 24px;
+  }
+}
+body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__info h5 {
+  margin-top: 0;
+  color: #FFFFFF;
+  font-family: "Inconsolata-SemiBold", Helvetica, sans-serif;
+}
+body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__info hr {
+  margin-left: -20px;
+  margin-top: 0;
+  width: 100%;
+}
+body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__info p {
+  margin-right: 40px;
+  text-align: justify;
+  color: #FFFFFF;
+  font-family: "Inconsolata-SemiBold", Helvetica, sans-serif;
+  font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+  body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__info p {
+    /* Ajusta el tamaño del texto para pantallas más pequeñas */
+    font-size: 12px;
+  }
+}
+body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__info #botonAñadir {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-family: "Inconsolata-SemiBold", Helvetica, sans-serif;
+  background-color: rgba(241, 209, 126, 0.6);
+  border: 1px solid black;
+  border-radius: 5%;
+  margin-left: 375px;
+  width: 60px;
+  text-align: center;
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__info #botonAñadir {
+    margin-left: 90px;
+    padding: 15px;
+  }
+}
+body .main .zonaIzquierda__detalle .zonaProducto .zonaProducto__info #botonAñadir:hover {
+  background-color: #F1D17E;
+}
+body .main .zonaDerecha__detalle {
+  margin-top: 10px;
+  grid-column: 11/15;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(104, 203, 156, 0.6);
+  border-radius: 20px;
+  border: 1px solid black;
+  font-family: "Inconsolata-SemiBold", Helvetica, sans-serif;
+}
+body .main .zonaDerecha__detalle #id__logoDerecha {
+  width: 50px;
+}
+body .main .zonaDerecha__detalle h1 {
+  text-align: center;
+}
+body .main .zonaDerecha__detalle hr {
+  width: auto;
+  color: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+body .main .zonaDerecha__detalle h2 {
+  margin-left: 20px;
+}
+body .main .zonaDerecha__detalle p {
+  margin-right: 20px;
+  text-align: end;
+}
+body .main .zonaDerecha__detalle .buttonVaciar a {
+  text-decoration: none;
+}
+body .main .zonaDerecha__detalle .buttonVaciar a h3 {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(241, 126, 126, 0.6);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bolder;
+}
+@media screen and (max-width: 1050px) {
+  body .main .zonaDerecha__detalle .buttonVaciar a h3 {
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .main .zonaDerecha__detalle .buttonVaciar a h3 {
+    font-size: calc(0.8em - 0.1vw);
+  }
+}
+body .main .zonaDerecha__detalle .buttonPagar a {
+  text-decoration: none;
+}
+body .main .zonaDerecha__detalle .buttonPagar a h3 {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #72A98F;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bolder;
+}
+@media screen and (max-width: 1050px) {
+  body .main .zonaDerecha__detalle .buttonPagar a h3 {
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .main .zonaDerecha__detalle .buttonPagar a h3 {
+    font-size: calc(0.8em - 0.1vw);
+  }
+}
+body .main .zonaDerecha__detalle .buttonPagar :hover {
+  background-color: #2ecc71;
+}
+body .main .zonaDerecha__detalle .buttonVaciar :hover {
+  background-color: rgb(196, 6, 6);
 }
 
 /*# sourceMappingURL=main.css.map */

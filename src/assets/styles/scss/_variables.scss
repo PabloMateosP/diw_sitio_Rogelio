@@ -14,11 +14,14 @@ $color-fondo-carrito: rgba(104, 203, 156, 0.6);
 
 
 /*### Botón Pagar y Añadir al carrito ###*/
-$color-boton-pagar: #F1D17E;
+$color-boton-pagar-hover: #F1D17E;
+$color-boton-pagar: rgba(241,209,126, 0.6);
 
 /*### Botones Like y Dislike ###*/
-$color-boton-like: #7EF1A5;
-$color-boton-dislike: #F17E7E;
+$color-boton-like: rgba(126,241,165, 0.6);
+$color-boton-like-hover: rgba(126,241,165);
+$color-boton-dislike: rgba(241,126,126, 0.6);
+$color-boton-dislike-hover: rgba(241,126,126);
 
 // --------------
 // Tipografías
