@@ -183,12 +183,15 @@ body {
                 margin-left: 10px;
                 
                 margin-bottom: 0;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
             }
 
             #id__logoDerecha {
-                
-                width: 40px;
-                background-color: rgba(175, 175, 175, 0.3);
+                width: 70px;
+                background-color: rgba(175, 175, 175, 0.7);
                 border-radius: 80%;
             }
 
